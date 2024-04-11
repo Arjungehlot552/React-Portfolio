@@ -4,6 +4,7 @@ import company2Image from '../assets/company2-logo.webp';
 
 const Work = () => {
   return (
+    <div className="mywork m-[30px] p-[30px]">
     <div className="container mx-auto px-4 mt-8">
       <h2 className="text-3xl font-semibold text-center">Work Experience</h2>
       <div className="flex mt-8">
@@ -37,6 +38,7 @@ const Work = () => {
           <img src={company2Image} alt="Company 2 Logo" className="h-auto w-full" />
         </div>
       </div>
+    </div>
     </div>
   );
 };

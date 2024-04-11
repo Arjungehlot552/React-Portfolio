@@ -102,7 +102,7 @@ const Projects = () => {
           {renderProjectsByCategory('Basic')}
         </div>
         {!showAllBasicProjects && (
-          <button onClick={handleMoreProjectsClick} className="text-blue-500 hover:underline mt-4">More Projects</button>
+          <button onClick={handleMoreProjectsClick} className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-6">More Projects</button>
         )}
       </div>
 
@@ -111,6 +111,7 @@ const Projects = () => {
         <div className="flex space-x-4">
           {renderProjectsByCategory('Advanced')}
         </div>
+          <button onClick={()=>{alert("No More Projects")}} className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-6">More Projects</button>
       </div>
 
       <div className="container mx-auto overflow-x-auto">
@@ -118,6 +119,7 @@ const Projects = () => {
         <div className="flex space-x-4">
           {renderProjectsByCategory('Pro')}
         </div>
+          <button onClick={()=>{alert("No More Projects")}} className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-6">More Projects</button>
       </div>
     </div>
   );

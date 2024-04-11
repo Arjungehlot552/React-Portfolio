@@ -27,7 +27,7 @@ const Contact = () => {
               <textarea id="message" className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 resize-none h-40" placeholder="Your message here..."></textarea>
             </div>
             <div className="text-center">
-              <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline" type="button">Send Message</button>
+              <button onClick={()=>{alert("Successfully sent!")}} className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline mb-6" type="button">Send Message</button>
             </div>
           </form>
         </div>

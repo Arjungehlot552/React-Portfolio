@@ -3,12 +3,13 @@ import aboutImage from '../assets/about-image.webp';
 
 const About = () => {
   return (
+    <div className="aboutme m-[30px] p-[30px]">
     <div className="container mx-auto px-4 mt-8">
       <h2 className="text-3xl font-semibold text-center mb-8">About Me</h2>
 
       <div className="flex flex-col md:flex-row items-center justify-center mb-8">
         <div className="md:w-1/2">
-          <img src={aboutImage} alt="Arjun Gehlot" className="h-auto w-full rounded-lg shadow-md" />
+          <img src={aboutImage} alt="Arjun Gehlot" className="h-[400px] w-[500px] rounded-lg shadow-md" />
         </div>
         <div className="md:w-1/2 md:ml-8">
           <p className="text-gray-700 mt-4 md:mt-0 text-lg leading-relaxed">
@@ -34,6 +35,7 @@ const About = () => {
           Proin vel ex eget sapien accumsan interdum. Mauris sit amet felis in arcu eleifend tristique id vel tellus.
         </p>
       </div>
+    </div>
     </div>
   );
 };

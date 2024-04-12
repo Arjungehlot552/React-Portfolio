@@ -17,7 +17,7 @@ const Home = () => {
 
 
   return (
-    <div className="container mx-auto px-4 mt-8 flex justify-center items-center h-screen">
+    <div data-aos="fade-up" data-aos-duration="1000"  className="container mx-auto px-4 mt-8 flex justify-center items-center h-screen">
       <div className="text-center m-[50px] w-[600px]">
         <h1 className="text-5xl font-bold mb-4 text-blue-700">Arjun Gehlot</h1>
         <h2 className="text-2xl font-semibold mb-2 text-gray-600">{jobTitles[jobIndex]}</h2>

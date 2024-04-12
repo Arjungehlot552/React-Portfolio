@@ -4,7 +4,8 @@ import sihImage from '../assets/SIH-image.jpg'; // Import your image here
 const Experience = () => {
   return (
     <>
-      <div className="container mx-auto px-4 mt-8">
+      <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="container mx-auto px-4 mt-8">
         <h2 className="text-3xl font-semibold mb-4">Work Experience</h2>
         <div className="mt-6 flex flex-wrap items-center">
           <div className="w-full md:w-1/2 md:pr-8 mb-8">

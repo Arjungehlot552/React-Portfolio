@@ -3,7 +3,8 @@ import aboutImage from '../assets/about-image.webp';
 
 const About = () => {
   return (
-    <div className="aboutme m-[30px] p-[30px]">
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="aboutme m-[30px] p-[30px]">
     <div className="container mx-auto px-4 mt-8">
       <h2 className="text-3xl font-semibold text-center mb-8">About Me</h2>
 
@@ -20,7 +21,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className="text-gray-700 text-lg leading-relaxed">
+      <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="text-gray-700 text-lg leading-relaxed">
         <p className="mb-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus erat a leo convallis, id volutpat nisl ultrices.
           Nulla commodo, velit at dictum euismod, ipsum lorem efficitur magna, vel bibendum ex urna at libero.

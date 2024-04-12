@@ -2,7 +2,8 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="container mx-auto px-4 mt-8">
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="container mx-auto px-4 mt-8">
       <h2 className="text-3xl font-semibold text-center mb-8">Contact Me</h2>
       <div className="flex justify-center items-center">
         <div className="w-full max-w-lg">

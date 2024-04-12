@@ -5,8 +5,8 @@ const Experience = () => {
   return (
     <>
       <div data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="container mx-auto px-4 mt-8">
-        <h2 className="text-3xl font-semibold mb-4">Work Experience</h2>
+     data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="container px-4 mt-8 mx-16">
+        <h2 className="text-3xl font-semibold mb-4">Work Achievements</h2>
         <div className="mt-6 flex flex-wrap items-center">
           <div className="w-full md:w-1/2 md:pr-8 mb-8">
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-xl">
@@ -30,14 +30,14 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 md:pl-8">
-            <div className="w-full h-auto rounded-lg overflow-hidden shadow-md hover:shadow-xl">
-              <img src={sihImage} alt="Smart India Hackathon" className="w-full h-full transform transition-transform hover:scale-105" />
+          <div className="w-[700px] md:w-1/2 md:pl-8">
+            <div className="w-[650px] rounded-lg overflow-hidden shadow-md hover:shadow-xl">
+              <img src={sihImage} alt="Smart India Hackathon" className="w-[650px] h-[400px] transform transition-transform hover:scale-105" />
             </div>
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-4 mt-8">
+      <div className="container px-4 mt-8 mx-16">
         <div className="mt-6 flex flex-wrap items-center">
           <div className="w-full md:w-1/2 md:pr-8 mb-8">
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-xl">
@@ -61,9 +61,9 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 md:pl-8">
-            <div className="w-full h-auto rounded-lg overflow-hidden shadow-md hover:shadow-xl">
-              <img src={sihImage} alt="Smart India Hackathon" className="w-full h-full transform transition-transform hover:scale-105" />
+          <div className="w-[700px] md:w-1/2 md:pl-8">
+            <div className="w-[650px] rounded-lg overflow-hidden shadow-md hover:shadow-xl">
+              <img src={sihImage} alt="Smart India Hackathon" className="w-[650px] h-[400px] transform transition-transform hover:scale-105" />
             </div>
           </div>
         </div>

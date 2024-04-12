@@ -95,7 +95,7 @@ const Projects = () => {
   };
 
   return (
-    <div data-aos="zoom-in-up"  data-aos-duration="1000"  className='m-[20px] p-16'>
+    <div data-aos="zoom-in" data-aos-duration="1000"  className='m-[20px] p-16'>
       <div className="container mx-auto mb-8  ">
         <h2 className="text-3xl font-semibold mb-4">Basic Projects</h2>
         <div className="flex space-x-4">
@@ -106,7 +106,7 @@ const Projects = () => {
         )}
       </div>
 
-      <div  data-aos="zoom-in-right" data-aos-duration="1000" className="container mx-auto mb-8 overflow-x-auto">
+      <div  data-aos="zoom-in" data-aos-duration="1000" className="container mx-auto mb-8 overflow-x-auto">
         <h2 className="text-3xl font-semibold mb-4">Advanced Projects</h2>
         <div className="flex space-x-4">
           {renderProjectsByCategory('Advanced')}
@@ -114,7 +114,7 @@ const Projects = () => {
           <button onClick={()=>{alert("No More Projects")}} className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-6">More Projects</button>
       </div>
 
-      <div data-aos="zoom-in-right" data-aos-duration="1000" className="container mx-auto overflow-x-auto">
+      <div data-aos="zoom-in" data-aos-duration="1000" className="container mx-auto overflow-x-auto">
         <h2 className="text-3xl font-semibold mb-4">Pro Projects</h2>
         <div className="flex space-x-4">
           {renderProjectsByCategory('Pro')}

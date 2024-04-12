@@ -96,7 +96,7 @@ const Projects = () => {
 
   return (
     <div className='m-[20px] p-16'>
-      <div className="container mx-auto mb-8 overflow-x-auto">
+      <div className="container mx-auto mb-8  ">
         <h2 className="text-3xl font-semibold mb-4">Basic Projects</h2>
         <div className="flex space-x-4">
           {renderProjectsByCategory('Basic')}

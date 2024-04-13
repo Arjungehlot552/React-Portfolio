@@ -8,6 +8,7 @@ import Work from './Work';
 import Contact from './Contact';
 import Projects from './Projects';
 import Skills from './Skills';
+import Achievement from './Experience';
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(true); // Setting dark mode as default
@@ -58,6 +59,7 @@ const Home = () => {
       <About />
       <Skills />
       <Work />
+      <Achievement/>
       <Projects />
       <Contact />
     </>

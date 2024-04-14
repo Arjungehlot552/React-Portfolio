@@ -58,7 +58,6 @@ const Skills = () => {
             icon={faPaintBrush}
             darkMode={darkMode}
           />
-         
         </div>
       </div>
     </div>

@@ -58,6 +58,7 @@ const Home = () => {
             <AiFillLinkedin />
             <AiFillTwitterCircle />
           </div>
+          
           <button
             className={`p-2 rounded-full mt-4 ${darkMode ? 'bg-gray-800' : 'bg-gray-200'} hover:bg-gray-300 focus:outline-none`}
             onClick={toggleDarkMode}

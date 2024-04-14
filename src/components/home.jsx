@@ -13,16 +13,29 @@ import Achievement from './Experience';
 const Home = () => {
   const [darkMode, setDarkMode] = useState(true); // Setting dark mode as default
 
+  const jobTitles = ["Software Engineer", "Full stack Web Developer", "Frontend Developer", "Backend Developer"];
   const [jobIndex, setJobIndex] = useState(0);
-  const jobTitles = ["Software Engineer", "Web Developer", "Frontend Engineer", "Backend Developer"];
+  const [displayedJobTitle, setDisplayedJobTitle] = useState('');
 
   useEffect(() => {
-    const myInterval = setInterval(() => {
-      setJobIndex(prevIndex => (prevIndex + 1) % jobTitles.length);
-    }, 3000);
+    const interval = setInterval(() => {
+      const currentJobTitle = jobTitles[jobIndex];
+      setDisplayedJobTitle(prevJobTitle => {
+        if (prevJobTitle.length !== currentJobTitle.length) {
+          return currentJobTitle.slice(0, prevJobTitle.length + 1);
+        } else {
+          clearInterval(interval);
+          setTimeout(() => {
+            setDisplayedJobTitle('');
+            setJobIndex((jobIndex + 1) % jobTitles.length);
+          }, 1000);
+          return prevJobTitle;
+        }
+      });
+    }, 150);
 
-    return () => clearInterval(myInterval);
-  }, [jobTitles.length]);
+    return () => clearInterval(interval);
+  }, [jobIndex, jobTitles]);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -30,10 +43,10 @@ const Home = () => {
 
   return (
     <>
-      <div  className={`container mx-auto px-4  flex justify-center items-center h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'}`}>
-        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000"  className="text-center m-[50px] w-[600px]">
-          <h1 className="text-5xl font-bold mb-4 text-blue-700">Arjun Gehlot</h1>
-          <h2 className="text-2xl font-semibold mb-2 text-gray-600">{jobTitles[jobIndex]}</h2>
+      <div className={`container mx-auto px-4  flex justify-center items-center h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'}`}>
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="text-center m-[50px] w-[600px]">
+          <h1 className="text-5xl font-bold mb-4 text-gray-200">Arjun Gehlot</h1>
+          <h2 className="text-3xl font-semibold mb-2 text-blue-600">I am {displayedJobTitle}</h2>
           <p className={`${darkMode ? 'text-gray-300' : 'text-gray-700'} mt-2 text-lg`}>
             Hello, I'm Arjun Gehlot, a passionate software engineer with expertise in building web applications.
             I specialize in frontend and backend development using modern technologies.

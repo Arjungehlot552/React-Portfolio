@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <div className="bg-gray-900 container mx-auto px-4 ">
-      <h2 className="text-4xl font-semibold text-center text-white mb-8">Contact Me</h2>
+      <h2 className="text-4xl font-semibold text-center text-white pt-8 mb-8">Contact Me</h2>
       <div  data-aos="fade-up"
     data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="flex justify-center items-center">
         <div className="w-full max-w-lg">

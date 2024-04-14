@@ -1,15 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    // Add logic to toggle dark mode for the entire website
-  };
 
   return (
     <nav className="bg-gray-800 text-gray-400 h-[100px] max-w-full  flex justify-between gap-10 items-center">
@@ -24,12 +16,6 @@ const Navbar = () => {
         <li className='hover:text-white'><a href='/experience'>Achievement</a></li>
         <li className='hover:text-white'><a href='/contact'>Contact</a></li>
       </ul>
-      <button
-        className="p-2 m-10 rounded-full bg-gray-200 hover:bg-gray-300 focus:outline-none "
-        onClick={toggleDarkMode}
-      >
-        <FontAwesomeIcon icon={darkMode ? faSun : faMoon} className="text-yellow-500" />
-      </button>
     </nav>
   );
 };

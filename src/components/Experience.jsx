@@ -12,7 +12,7 @@ const Experience = () => {
   return (
     <>
       <div  className={`container px-4 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'}`}>
-        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="text-4xl font-bold text-center mb-8">Work Achievements</h2>
+        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="text-4xl font-bold pt-7 text-center mb-8">Work Achievements</h2>
         <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="mt-6 flex flex-wrap items-center">
           <div className="w-full md:w-1/2 md:pr-8 mb-8">
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-xl">

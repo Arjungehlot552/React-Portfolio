@@ -47,9 +47,9 @@ const Skills = () => {
             darkMode={darkMode}
           />
           <SkillCard
-            title="UI/UX Design"
-            description="Skilled in creating intuitive and user-friendly interfaces. Proficient in Adobe XD and Figma for designing wireframes and prototypes."
-            icon={faPaintBrush}
+            title="Backend Development"
+            description="Familiar with Node.js, Express.js, MongoDB, and RESTful APIs. Capable of building server-side applications and managing databases."
+            icon={faServer}
             darkMode={darkMode}
           />
           <SkillCard

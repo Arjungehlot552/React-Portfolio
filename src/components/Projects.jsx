@@ -95,9 +95,9 @@ const Projects = () => {
   };
 
   return (
-    <div data-aos="zoom-in" data-aos-duration="1000"  className='m-[20px] p-16'>
-      <div className="container mx-auto mb-8  ">
-        <h2 className="text-4xl font-bold text-center mb-8">Basic Projects</h2>
+    <div className=' bg-gray-900 p-16'>
+      <div data-aos="zoom-in" data-aos-duration="1000"  className="container mx-auto mb-8  ">
+        <h2 className="text-4xl font-bold text-white text-center mb-8">Basic Projects</h2>
         <div className="flex space-x-4">
           {renderProjectsByCategory('Basic')}
         </div>
@@ -107,7 +107,7 @@ const Projects = () => {
       </div>
 
       <div  data-aos="zoom-in" data-aos-duration="1000" className="container mx-auto mb-8 overflow-x-auto">
-        <h2 className="text-4xl font-bold text-center mb-8">Advanced Projects</h2>
+        <h2 className="text-4xl font-bold text-white text-center mb-8">Advanced Projects</h2>
         <div className="flex space-x-4">
           {renderProjectsByCategory('Advanced')}
         </div>
@@ -115,7 +115,7 @@ const Projects = () => {
       </div>
 
       <div data-aos="zoom-in" data-aos-duration="1000" className="container mx-auto overflow-x-auto">
-        <h2 className="text-4xl font-bold text-center mb-8">Pro Projects</h2>
+        <h2 className="text-4xl font-bold text-white text-center mb-8">Pro Projects</h2>
         <div className="flex space-x-4">
           {renderProjectsByCategory('Pro')}
         </div>

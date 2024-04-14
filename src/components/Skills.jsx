@@ -40,7 +40,25 @@ const Skills = () => {
             icon={faPaintBrush}
             darkMode={darkMode}
           />
-          {/* Add more SkillCard components for each skill */}
+          <SkillCard
+            title="UI/UX Design"
+            description="Skilled in creating intuitive and user-friendly interfaces. Proficient in Adobe XD and Figma for designing wireframes and prototypes."
+            icon={faPaintBrush}
+            darkMode={darkMode}
+          />
+          <SkillCard
+            title="UI/UX Design"
+            description="Skilled in creating intuitive and user-friendly interfaces. Proficient in Adobe XD and Figma for designing wireframes and prototypes."
+            icon={faPaintBrush}
+            darkMode={darkMode}
+          />
+          <SkillCard
+            title="UI/UX Design"
+            description="Skilled in creating intuitive and user-friendly interfaces. Proficient in Adobe XD and Figma for designing wireframes and prototypes."
+            icon={faPaintBrush}
+            darkMode={darkMode}
+          />
+         
         </div>
       </div>
     </div>

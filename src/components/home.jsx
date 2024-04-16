@@ -66,6 +66,7 @@ const Home = () => {
           >
             <FontAwesomeIcon icon={darkMode ? faSun : faMoon} className="text-yellow-500" />
           </button>
+          
         </div>
         <div className="ml-10">
           <img src={arjunImage} alt="Arjun Gehlot" className="h-[450px] w-[450px] rounded-full shadow-lg hover:shadow-xl" />

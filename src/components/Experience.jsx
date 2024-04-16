@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import DarkModeToggle from './DarkModeToggle';
 import sihImage from '../assets/SIH-image.jpg'; // Import your image here
 
 const Experience = () => {

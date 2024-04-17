@@ -52,12 +52,6 @@ const Skills = () => {
             icon={faServer}
             darkMode={darkMode}
           />
-          <SkillCard
-            title="UI/UX Design"
-            description="Skilled in creating intuitive and user-friendly interfaces. Proficient in Adobe XD and Figma for designing wireframes and prototypes."
-            icon={faPaintBrush}
-            darkMode={darkMode}
-          />
         </div>
       </div>
     </div>

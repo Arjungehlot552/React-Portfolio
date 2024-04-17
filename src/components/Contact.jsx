@@ -7,7 +7,7 @@ const Contact = () => {
       <div  data-aos="fade-up"
     data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="flex justify-center items-center">
         <div className="w-full max-w-lg">
-          <p className="text-gray-700 mb-6">Feel free to reach out to me using the form below:</p>
+          <p className="text-white-700 mb-6">Feel free to reach out to me using the form below:</p>
           <form className="w-full">
             <div className="flex flex-wrap mb-6">
               <div className="w-full md:w-1/2 md:pr-3">

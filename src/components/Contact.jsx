@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Contact = () => {
   return (
     <div className="bg-gray-900 container mx-auto px-4 ">

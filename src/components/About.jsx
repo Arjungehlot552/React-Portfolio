@@ -10,7 +10,6 @@ const About = () => {
     setDarkMode(!darkMode);
   };
 
-  
   return (
     <div className={`aboutme p-[30px] ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'}`}>
       <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000"  className="container mx-auto px-4 mt-8">
